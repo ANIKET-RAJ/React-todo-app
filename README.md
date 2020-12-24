@@ -1,4 +1,4 @@
-!https://github.com/ANIKET-RAJ/React-todo-app/blob/master/Sample-todo-app.PNG
+![sample](https://github.com/ANIKET-RAJ/React-todo-app/blob/master/Sample-todo-app.PNG)
 
 # Getting Started with Create React App
 
