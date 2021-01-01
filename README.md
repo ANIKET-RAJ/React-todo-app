@@ -1,3 +1,5 @@
+![sample](https://github.com/ANIKET-RAJ/React-todo-app/blob/master/Sample-todo-app.PNG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
