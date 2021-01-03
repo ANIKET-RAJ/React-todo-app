@@ -32,6 +32,30 @@ class App extends Component {
 		});
 	}
 
+
+	// React Life Cycle
+    componentDidMount() {
+        this.userData = JSON.parse(localStorage.getItem('user'));
+
+        if (localStorage.getItem('user')) {
+            this.setState({
+                userInput: this.userData.userInput,
+                list: this.userData.list
+                
+            })
+        } else {
+            this.setState({
+                userInput: '',
+                list: []
+            })
+        }
+    }
+
+
+	componentWillUpdate(nextProps, nextState) {
+        localStorage.setItem('user', JSON.stringify(nextState));
+    }
+
 	// Add item if user input in not empty 
 	addItem() {
 		if (this.state.userInput !== '') {
